@@ -1,0 +1,1026 @@
+.has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
+	color: #3c763d
+}
+.has-success .input_style {
+	border:1px solid #3c763d;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+}
+.has-success .input_style:focus {
+	border-color: #2b542c;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #67b168;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #67b168
+}
+.has-success .input-group-addon {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #3c763d
+}
+.has-success .input_style-feedback {
+	color: #3c763d;
+}
+.has-warning .checkbox, .has-warning .checkbox-inline, .has-warning .control-label, .has-warning .help-block, .has-warning .radio, .has-warning .radio-inline, .has-warning.checkbox label, .has-warning.checkbox-inline label, .has-warning.radio label, .has-warning.radio-inline label {
+	color: #8a6d3b
+}
+.has-warning .input_style {
+	border:1px solid #8a6d3b;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+}
+.has-warning .input_style:focus {
+	border-color: #66512c;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #c0a16b;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #c0a16b
+}
+.has-warning .input-group-addon {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #8a6d3b
+}
+.has-warning .input_style-feedback {
+	color: #8a6d3b
+}
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+	color: #a94442;
+	margin-left:10px;
+}
+.has-error .input_style {
+	border:1px solid #a94442;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+}
+.has-error .input_style:focus {
+	border-color: #843534;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ce8483;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ce8483
+}
+.has-error .input-group-addon {
+	color: #a94442;
+	background-color: #f2dede;
+	
+}
+
+
+/*************************************
+*********      GERAL          ********
+*************************************/
+.margem {
+	margin-top:30px;
+}
+
+/*************************************
+*********      INDEX          ********
+*************************************/
+.btn-search {
+	height: 42px;
+	display: inline-block;
+	padding: 12px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color:#fff;
+	background-color:#46b8da;
+	border:none;
+}
+.input_style-index {
+	display: block;
+	width: 100%;
+	height: 42px;
+	margin-top:1px;
+	padding:0 10px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #999;
+	background-color: #fff;
+	border:0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.dropdown-search {
+    padding:10px 50px;
+	background-color:#fff;
+
+}
+.button_search {
+	padding:0 10px;
+	color:#fff;
+	background-color:#036;
+}
+/*************************************
+*******    POP UP LOGIN       ********
+*************************************/
+.content {
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.content_form {
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	margin:20px;
+}
+
+.content h2 {
+	margin-top:20px;
+	color: #FFF;
+	overflow:hidden;
+	font-size:20px;
+	margin-left:10px;
+}
+.content p {
+	margin-top:10px;
+	color: #FFF;
+	overflow:hidden;
+	font-size:14px;
+	margin-left:10px;
+}
+.content_form {
+	position:relative;
+	float:left;
+	border:1px solid #0F6;
+}
+.input_style {
+	/*width:90%;*/
+	margin-top:15px;
+	color: #405162;
+	font-size:12px;
+	background-color:#FFF;
+	position:relative;
+	text-align:left;
+	margin-left:10px;
+	padding:10px 0 10px 10px;
+	line-height:15px;
+	outline:0;
+	border:0;
+	resize:none;
+}
+
+.input_editEmpresa {
+	color: #405162;
+	font-size:12px;
+	background-color:#FFF;
+	position:relative;
+	text-align:left;
+	padding:10px 0 10px 10px;
+	outline:0;
+	border:0;
+	resize:none;
+}
+.disabled{
+	color: #405162;
+	background-color:#DBDBDB;
+	opacity:0.4;
+	cursor: not-allowed;
+}
+.textarea {
+	width:100%;
+	margin-top:15px;	
+}
+/*************************************
+*******  ADD EMPRESA **********
+*************************************/
+.content_form {
+	width: 100%;
+	position:relative;
+	float:left;
+	border:none;
+}
+.content_h2 {
+	font-size:14px;
+	color:#03F;
+}
+.addEmpresa_label {
+	margin-left:10px;
+}
+.full {
+	width:100%;
+}
+.large {
+	width:95%;
+}
+.medium {
+	width:55%;
+}
+.seachar_bar {
+	width:50%;
+}
+.equal {
+	width:43.25%;
+}
+.small {
+	width:31.5%;
+}
+
+.control-label-form {
+	float:left;
+	color:#FFF;	
+	font-size:12px;
+	position:relative;
+	text-align:left;
+	margin-left:10px;
+}
+.form-group p{
+	margin-bottom:-10px;
+}
+
+
+.stepwizard-row {
+	display: table-row;
+}
+.stepwizard {
+	display: table;
+	position: relative;
+	margin:0 auto;
+}
+.stepwizard-step {
+	display: table-cell;
+	text-align: center;
+	position: relative;
+}
+.btn-circle {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	padding: 20px 25px;
+	font-size: 12px;
+	line-height: 0;
+}
+
+
+li ul {display: none;width:auto; height:auto; background:#FFF; overflow:hidden}
+li:hover ul {display: block; position: absolute;}
+li:hover ul li {float: none; width:100%; padding:10px; color:#999;}
+li:hover ul li:hover {background: #475b6f; color:#FFF;}
+.border_drop{
+	width:100%;
+	border-top:1px dashed #ccc;	
+}
+.img_perfil {
+	width:25px;
+	height:25px;
+	overflow:hidden;
+}
+
+.input_horario {
+	margin-top:15px;
+	color: #405162;
+	font-size:12px;
+	background-color:#FFF;
+	position:relative;
+	text-align:left;
+	padding:10px 0 10px 10px;
+	line-height:15px;
+	outline:0;
+	border:0;
+}
+
+.input_horario[disabled], .input_horario[readonly], fieldset[disabled] .input_horario {
+	cursor: not-allowed;
+	background-color: #F7F7F7;
+	opacity: 1
+}
+
+.oculto {
+	display:none;	
+}
+.oculto1 {
+	display:none;	
+}
+.oculto2 {
+	display:none;	
+}
+
+/*************************************
+*********    TUTORIAL         ********
+*************************************/
+.row_tutorial {
+	position:relative;
+	overflow:hidden;
+	margin-top:50px;
+	
+}
+/*************************************
+*********    PAG SEARCH       ********
+*************************************/
+.content_search {
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-top:30px;
+	float:left;
+	overflow:hidden;
+}
+.title { width: 100%; padding: 6px 0; border-bottom: 1px solid #ccc; margin-bottom: 1px;  }
+.title span { font: 22px Arial; padding: 5px 0; color: #db5252; border-bottom: 2px solid #db5252;margin-left: 0px;}
+.title button{float:right;}
+/******* Thumbnail search */
+.content_info {
+	width:100%;
+	overflow:hidden;
+	position:absolute;
+	
+}
+.content_title {
+	max-width:100%;
+	max-height:45px;
+	position:relative;
+	overflow:hidden;
+	font-size:14px;
+	color:#db5252;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.content_description {
+	max-height:50px;	
+	position:relative;
+	overflow:hidden;
+	font-size:12px;
+	margin-bottom:15px;
+}
+.content_icons {
+	width:100%;
+	height:auto;
+	position:relative;
+}
+.content_icons p{
+	max-width:150px;
+	height:40px;
+	font-size:12px;
+	overflow:hidden;
+}
+
+
+
+/*****************************************
+*********    EDITAR PERFIL        ********
+******************************************/
+.nav-tabs-perfil {
+	border-bottom: 1px solid #31b0d5
+}
+.nav-tabs-perfil>li {
+	float: left;
+	margin-bottom: -1px;
+}
+.nav-tabs-perfil>li>a {
+	line-height: 1.42857143;
+	border: 1px solid transparent;
+	background-color:#5bc0de;
+	color: #fff;
+}
+.nav-tabs-perfil>li>a:hover {
+	background:#31b0d5;
+}
+.nav-tabs-perfil>li.active>a, .nav-tabs-perfil>li.active>a:focus, .nav-tabs-perfil>li.active>a:hover {
+	color: #fff;
+	cursor: default;
+	background-color: #31b0d5;
+	border-bottom-color: transparent
+}
+
+
+#thumbnail {
+	width: 230px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+}
+#imagePreview {
+	width: 176px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+}
+/******* INPUT FILE WARNING ********/
+.custom-file-input-warning{
+  color: transparent;
+  width: 50%;
+  float:left;
+  position:relative;
+
+}
+.custom-file-input-warning::-webkit-file-upload-button{
+  visibility: hidden;
+}
+.custom-file-input-warning::before {
+	content: 'Editar';
+	display: block;
+	width:85px;
+	padding:10px;
+	margin-right:10px;
+	outline: none;
+	-webkit-user-select: none;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 10pt;
+	text-align:center;
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+.custom-file-input-warning:hover::before {
+	color: #fff;
+	background-color: #ec971f;
+	border-color: #d58512
+}
+.custom-file-input-warning:active {
+	outline: 0;
+}
+.custom-file-input-warning:active::before {
+	background-color: #f0ad4e;
+	border-color: #eea236
+}
+
+/******* INPUT FILE DANGER ********/
+.btns {
+	width:83px;
+	padding:9px; 
+	margin-right:10px;
+	outline: none;
+	-webkit-user-select: none;
+	cursor: pointer;
+	border:none;
+}
+
+.btn_edit {
+	background-color:#D7D7D7;
+	color:#777;
+	line-height:30px;
+}
+
+/*************************************
+*** USER: PAG EMPRESAS REGISTADAS  ***
+*************************************/
+.img_small {
+	width:40%;
+	height:40%;	
+	display: inline-block;
+	padding: 4px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out
+	
+}
+
+
+/*************************************
+*** USER: PAG DETALHE  ***
+*************************************/
+.star-rating {
+  font-family: 'FontAwesome';
+  margin: 50px auto;
+}
+.star-rating > fieldset {
+  border: none;
+  display: inline-block;
+}
+.star-rating > fieldset:not(:checked) > input {
+  position: absolute;
+  top: -9999px;  
+}
+.star-rating > fieldset:not(:checked) > label {
+  float: right;
+  width: 1em;
+  padding: 0 .05em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 150%;
+  color: #db5252;
+}
+.star-rating > fieldset:not(:checked) > label:before {
+  content: '\f006  ';
+}
+.star-rating > fieldset:not(:checked) > label:hover, 
+.star-rating > fieldset:not(:checked) > label:hover ~ label {
+  color: #db5252;
+}
+.star-rating > fieldset:not(:checked) > label:hover:before,
+.star-rating > fieldset:not(:checked) > label:hover ~ label:before {
+  content: '\f005  ';
+}
+.star-rating > fieldset > input:checked ~ label:before {
+  content: '\f005  ';
+}
+.star-rating > fieldset > label:active {
+  position: relative;
+  top: 2px;
+}
+
+
+
+
+
+.star-rated {
+  font-family: 'FontAwesome';
+  margin: 50px auto;
+}
+.star-rated > fieldset {
+  border: none;
+  display: inline-block;
+}
+.star-rated > fieldset:not(:checked) > input {
+  position: absolute;
+  top: -9999px;  
+}
+.star-rated > fieldset:not(:checked) > label {
+  float: right;
+  width: 1em;
+  padding: 0 .05em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 150%;
+  color: #db5252;
+}
+.star-rated > fieldset:not(:checked) > label:before {
+  content: '\f005  ';
+}
+.star-rated > fieldset:not(:checked) > label:hover, 
+.star-rated > fieldset:not(:checked) > label:hover ~ label {
+  color: #db5252;
+}
+.star-rated > fieldset:not(:checked) > label:hover:before,
+.star-rated > fieldset:not(:checked) > label:hover ~ label:before {
+  content: '\f006  ';
+}
+.star-rated > fieldset > input:checked ~ label:before {
+  content: '\f006  ';
+}
+.star-rated > fieldset > label:active {
+  position: relative;
+  top: 2px;
+}
+
+
+
+
+.show_rating {
+  width: 1em;
+  padding: 0 .05em;
+  display:inline; 
+  font-size: 150%;
+  color: #db5252;	
+}
+.btn-rating {
+	height: 30px;
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color:#fff;
+	background-color:#46b8da;
+	border:none;
+}
+
+.subtexto {
+	font-size:10px;
+	color:#777;
+}
+
+/**************************************************
+*********    SEARCH FORM - solid-green      ********
+**************************************************/
+
+/* solid-green */
+
+
+.formoid-solid-green{
+  margin:0 auto;
+}
+.formoid-solid-green>div,
+.formoid-solid-green>.title{
+  margin: 8px;
+}
+
+
+.formoid-solid-green .large{
+  width: 100%;
+  *width: 94%;
+}
+.formoid-solid-green .medium{
+  width: 67%;
+  *width: 67%;
+}
+.formoid-solid-green .small{
+  width: 25%;
+  *width: 23%;
+}
+
+
+
+.formoid-solid-green{
+	
+	padding-top:10px;
+/*border-top: 1px solid #D4D4D4;*/
+  font-size: 1em;
+  line-height: 1.231;
+
+  /*border-radius: 5px 5px 0 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);*/
+}
+.formoid-solid-green label.title{
+  font-size: 1em;
+  font-weight: 500;
+  width: auto;
+}
+
+.formoid-solid-green>div{
+  position: relative;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.formoid-solid-green h2 {
+  margin: 0.2em 0;
+  font-size: 2em;
+  font-weight: 300;
+  color: #fff;
+}
+.formoid-solid-green h3.title {
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+.formoid-solid-green h3.section-break-title {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.formoid-solid-green label {
+  display: block;
+  margin-bottom: 3px;
+  clear: both;
+}
+
+.formoid-solid-green div, .formoid-solid-green span, .formoid-solid-green label, .formoid-solid-green input, .formoid-solid-green textarea, .formoid-solid-green select, .formoid-solid-green button, .formoid-solid-green ul, .formoid-solid-green li, .formoid-solid-green a{
+  font-family: inherit;
+  color: inherit;
+}
+/* Global Declaration */
+
+/*
+CORE FUNCTIONALITY 
+
+Not advised to edit stuff below this line
+-----------------------------------------------------
+*/
+
+
+.formoid-solid-green input[type=text],
+.formoid-solid-green input[type=password],
+.formoid-solid-green input[type=email],
+.formoid-solid-green input[type=url],
+.formoid-solid-green input[type=date],
+.formoid-solid-green input[type=number],
+.formoid-solid-green input[type=tel],
+.formoid-solid-green textarea,
+.formoid-solid-green .element-file .file_text,
+.formoid-solid-green select{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #bdc3c7;
+  -webkit-transition: border-color 0.5s ease-in-out;
+  transition: border-color 0.5s ease-in-out;
+  border-radius:3px;
+  padding: 15px 15px 9px 2.3em;  
+  outline:none;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  
+  font-size: 1em;
+}
+
+.formoid-solid-green  select{
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  /*outline-color:#FF0004;*/
+}
+.formoid-solid-green .element-address input[type=text] {
+  margin-bottom: 6px;
+}
+
+
+.formoid-solid-green div.title{
+  background-color: #1abc9c;
+  border-top: 1px solid #62D0BA;
+  border-bottom: 5px solid #16A085;
+}
+
+/* element-submit + element-text */
+.formoid-solid-green > .submit,
+.formoid-solid-green > .title{
+  background-color: #bcc3ca;
+}
+
+.formoid-solid-green input[type=text]:hover,
+.formoid-solid-green input[type=tel]:hover,
+.formoid-solid-green input[type=password]:hover,
+.formoid-solid-green input[type=email]:hover,
+.formoid-solid-green input[type=url]:hover,
+.formoid-solid-green input[type=date]:hover,
+.formoid-solid-green input[type=number]:hover,
+.formoid-solid-green input[type=file]:hover,
+.formoid-solid-green textarea:hover,
+.formoid-solid-green select:hover {
+  border-color: #6BCFF9;
+}
+.formoid-solid-green input[type=text]:focus,
+.formoid-solid-green input[type=tel]:focus,
+.formoid-solid-green input[type=password]:focus,
+.formoid-solid-green input[type=email]:focus,
+.formoid-solid-green input[type=url]:focus,
+.formoid-solid-green input[type=date]:focus,
+.formoid-solid-green input[type=number]:focus,
+.formoid-solid-green input[type=file]:focus,
+.formoid-solid-green textarea:focus,
+.formoid-solid-green select:focus{
+  border-color: #6BCFF9;
+}
+
+
+
+
+
+
+
+/* bootstrap select */
+.formoid-solid-green .dropdown-menu li.active > a,
+.formoid-solid-green .dropdown-menu li.selected > a,
+.formoid-solid-green .dropdown-menu li.active > a.highlighted,
+.formoid-solid-green .dropdown-menu li.selected > a.highlighted,
+.formoid-solid-green .dropdown-inverse li.active > a,
+.formoid-solid-green .dropdown-inverse li.selected > a {
+  background-color: #23527c;
+}
+.formoid-solid-green .btn.btn-primary:hover,
+.formoid-solid-green .btn.btn-primary:focus,
+.formoid-solid-green .btn-group:focus .btn.btn-primary.dropdown-toggle {
+  border-color: #23527c;
+}
+.formoid-solid-green .btn.btn-primary:active,
+.formoid-solid-green .btn-group.open .btn.btn-primary.dropdown-toggle,
+.formoid-solid-green .btn.btn-primary.active,
+.formoid-solid-green .dropdown-menu li.active > a:hover,
+.formoid-solid-green .dropdown-menu li.selected > a:hover,
+.formoid-solid-green .dropdown-menu li.active > a.highlighted:hover,
+.formoid-solid-green .dropdown-menu li.selected > a.highlighted:hover,
+.formoid-solid-green .dropdown-menu li.active > a:focus,
+.formoid-solid-green .dropdown-menu li.selected > a:focus,
+.formoid-solid-green .dropdown-menu li.active > a.highlighted:focus,
+.formoid-solid-green .dropdown-menu li.selected > a.highlighted:focus {
+  border-color: #23527c;
+}
+.formoid-solid-green .dropdown-arrow {
+  border-bottom: 8px solid #23527c;
+}
+.formoid-solid-green .dropdown-menu {
+  border: 2px solid #1abc9c;
+}
+
+
+
+
+
+/* .formoid-solid-green color scheme begin end *//* 
+
+bootstrap 
+
+*/
+.formoid-solid-green .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  border-radius: 3px;
+}
+
+.formoid-solid-green .dropdown-menu > li > a:hover,
+.formoid-solid-green .dropdown-menu > li > a:focus,
+.formoid-solid-green .dropdown-submenu:hover > a,
+.formoid-solid-green .dropdown-submenu:focus > a {
+  text-decoration: none;
+}
+
+.formoid-solid-green .btn-group {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *margin-left: .3em;
+  white-space: nowrap;
+  vertical-align: middle;
+  *zoom: 1;
+}
+
+.formoid-solid-green .btn-group > .dropdown-menu{
+  font-size: 1em;
+}
+
+.formoid-solid-green .btn{
+  text-align: left;
+  border: 0;
+  cursor: pointer;
+
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 9px 2.3em;
+
+  outline:none;
+
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: normal;
+  border-radius: 3px;
+
+  border: 2px solid #BDC3C7;
+  background-color: #fff;
+
+  font-size: 1em;
+}
+.formoid-solid-green .btn:active,
+.formoid-solid-green .btn-group.open .btn.dropdown-toggle,
+.formoid-solid-green .btn.active {
+  box-shadow: none;
+}
+.formoid-solid-green .btn.disabled,
+.formoid-solid-green .btn[disabled] {
+  background-color: #bdc3c7;
+  color: rgba(255, 255, 255, 0.75);
+  box-shadow: none;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.formoid-solid-green .select {
+  width: 100%;
+}
+
+
+.formoid-solid-green .dropdown-menu {
+  overflow-x: hidden;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  width: 99%;
+  box-shadow: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+.formoid-solid-green .dropdown-menu.typeahead {
+  display: none;
+  opacity: 1;
+  visibility: visible;
+  width: auto;
+}
+.formoid-solid-green .open > .dropdown-menu {
+  margin-top: 8px;
+  opacity: 1;
+  visibility: visible;
+}
+.formoid-solid-green .dropdown-menu li:first-child dt + a {
+  border-radius: 0;
+}
+.formoid-solid-green .dropdown-menu li.active > a,
+.formoid-solid-green .dropdown-menu li.selected > a,
+.formoid-solid-green .dropdown-menu li.active > a.highlighted,
+.formoid-solid-green .dropdown-menu li.selected > a.highlighted,
+.formoid-solid-green .dropdown-menu li.active > a:hover,
+.formoid-solid-green .dropdown-menu li.selected > a:hover,
+.formoid-solid-green .dropdown-menu li.active > a.highlighted:hover,
+.formoid-solid-green .dropdown-menu li.selected > a.highlighted:hover,
+.formoid-solid-green .dropdown-menu li.active > a:focus,
+.formoid-solid-green .dropdown-menu li.selected > a:focus,
+.formoid-solid-green .dropdown-menu li.active > a.highlighted:focus,
+.formoid-solid-green .dropdown-menu li.selected > a.highlighted:focus {
+  color: #ffffff;
+}
+.formoid-solid-green .dropdown-menu li > a {
+  padding: 6px 15px 6px;
+  text-decoration: none;
+  *zoom: 1;
+  -webkit-backface-visibility: hidden;
+  display: block;
+  clear: both;
+  white-space: nowrap;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.formoid-solid-green .dropdown-menu li > a:before,
+.formoid-solid-green .dropdown-menu li > a:after {
+  display: table;
+  content: "";
+}
+.formoid-solid-green .dropdown-menu li > a:after {
+  clear: both;
+}
+.formoid-solid-green .dropdown-menu li > a.highlighted {
+  background: #c9cfd4;
+  color: #ffffff;
+}
+.formoid-solid-green .dropdown-menu li > a.highlighted:hover,
+.formoid-solid-green .dropdown-menu li > a.highlighted:focus {
+  background: #bac1c8;
+  color: #ffffff;
+}
+.formoid-solid-green .dropdown-menu li > a:before {
+  margin-top: 3px;
+}
+
+.formoid-solid-green .dropdown-menu li dt {
+  margin-bottom: 3px;
+  margin-top: 12px;
+  padding: 0 15px;
+}
+.formoid-solid-green .dropdown-inverse {
+  padding-top: 4px;
+}
+.formoid-solid-green .dropdown-inverse li {
+  margin: 0 4px -2px;
+}
+.formoid-solid-green .dropdown-inverse li:first-child > a,
+.formoid-solid-green .dropdown-inverse li:last-child > a {
+  border-radius: 0;
+  padding-bottom: 7px;
+}
+.formoid-solid-green .dropdown-inverse li.active > a,
+.formoid-solid-green .dropdown-inverse li.selected > a {
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+}
+.formoid-solid-green .dropdown-inverse li dt {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+.formoid-solid-green .dropdown-inverse li .divider {
+  margin-left: 11px;
+  margin-right: 11px;
+}
+.formoid-solid-green .dropdown-inverse li > a.highlighted {
+  background: #526476;
+}
+.formoid-solid-green .dropdown-inverse li > a.highlighted:hover,
+.formoid-solid-green .dropdown-inverse li > a.highlighted:focus {
+  background: #677786;
+}
+.formoid-solid-green .dropdown-inverse li .divider {
+  background-color: #526476;
+  border-bottom-color: #526476;
+}
+.formoid-solid-green .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.formoid-solid-green .dropdown-arrow {
+  margin-top: 0;
+  opacity: 0;
+  position: absolute;
+  left: 13px;
+  top: 100%;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  z-index: 10;
+}
+.formoid-solid-green .open > .dropdown-arrow {
+  margin-top: 0;
+  opacity: 1;
+}
